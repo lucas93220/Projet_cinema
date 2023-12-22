@@ -7,17 +7,43 @@
 </head>
 <body>
     <header>
-        <h1>
-
-        </h1>
+        <a href="./index.html"><img class="logo" src="" alt="logo"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="./index.html"></a>ACCUEIL</li>
+                <li><a href="./films.html"></a>NOS FILMS</li>
+                <li><a href="./connexion.html">CONNEXION</a></li>
+                <li><a href="./inscription.html">CRÉER UN COMPTE</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <form>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
 
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mdp">Mot de passe:</label>
+            <input type="password" id="mdp" name="mdp" required>
+
+            <label for="mdpConfirm">Confirmer le mot de passe:</label>
+            <input type="password" id="mdpConfirm" name="mdpConfirm" required>
+
+            <label for="tel">Téléphone:</label>
+            <input type="tel" id="tel" name="tel" required>
+
+            <input type="submit" value="S'inscrire">
+        </form>
     </main>
 
     <footer>
         
     </footer>
-    
+   
 </body>
 </html>
