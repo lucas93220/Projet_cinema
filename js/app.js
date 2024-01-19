@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", e => {
         const films = data.films;
 
         // Create an HTML list
-        const list = document.querySelector("ul");
-
+        const list = document.getElementById("film");
         // Create list items for each films
         for (let i = 0; i < films.length; i++) {
             const film = films[i];
