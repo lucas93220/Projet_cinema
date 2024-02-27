@@ -15,11 +15,11 @@ Le but de ce site est de proposer aux utilisateurs une expérience immersive dan
 
 ## Vous pouvez consulter notre site en suivant ce lien : 
 
-[(https://lucas93220.github.io/Projet_cinema/)]
+[Lien site web](https://lucas93220.github.io/Projet_cinema/)
 
 je suis à l'écoute de vos retours et suggestions pour améliorer notre site. N'hésitez pas à me contacter via les liens ci-dessous si vous avez des questions ou des remarques. 
 
 Merci d'avoir visité mon site et à très bientôt pour un séjour terrifiant dans le monde de l'horreur!
 
 - Email : lopezlucas52@gmail.com
-- LinkedIn : [https://www.linkedin.com/in/lucas-lopez-a6607514a/](https://www.linkedin.com/in/lucas93220/)
+- [LinkedIn](https://www.linkedin.com/in/lucas93220/)
