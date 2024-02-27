@@ -1,0 +1,66 @@
+h2{
+    font-family: 'Jolly Lodger', system-ui;
+    width: 60%;
+    padding: 5rem;
+    font-size: 6rem;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+  }
+.inscription{
+    text-align: center;
+    margin: 2rem auto;
+    background-color: #7e7c7c;
+    border: solid 2px black;
+    max-width: 60%;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50);
+}
+  .inscription label{
+    
+    font-family: 'Jolly Lodger', system-ui;
+    font-size: 2.5rem;
+  }
+  .inscription input{
+    border: black solid 2px;
+    background-color: #fff;
+    font-family: 'Jolly Lodger', system-ui;
+      font-size: 2rem;
+      padding: 7px;
+      margin: 1.5rem auto;
+      width: 40%;
+      transition-duration: 0.4s;
+  
+  }
+  
+  .inscription input:hover{
+    color: #c70101;
+    background-color: black;
+    border: solid 2px #c70101;
+  }
+  
+  .button{
+    font-family: 'Jolly Lodger', system-ui;
+    font-size: 2.4rem;
+    width: 15%;
+    padding: 5px;
+    margin: 3rem auto;
+    border: black solid 2px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover{ 
+    color: #c70101;
+    background-color: black;
+    border: #c70101 solid 2px ;
+    font-size: 4rem;
+    width: 20%;
+  }
+
+
+
+  

@@ -1,0 +1,76 @@
+.slider{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: #404040;
+    }
+    
+    .slide img{
+        height: 100%;
+        width: 95%;
+    }
+    .joinUs{
+      text-align: center;
+    }
+    .joinUs h2{
+      font-family: 'Jolly Lodger', system-ui;
+      width: 60%;
+      padding: 5rem;
+      font-size: 4.4rem;
+      font-weight: bold;
+      margin: auto;
+    }
+
+    .joinUs label{
+      font-family: 'Jolly Lodger', system-ui;
+      font-size: 2.8rem;
+    }
+    .joinUs input{
+      border: black solid 2px;
+      background-color: #fff;
+      font-family: 'Jolly Lodger', system-ui;
+        font-size: 2rem;
+        padding: 10px;
+        margin: 2rem auto;
+        width: 25%;
+        transition-duration: 0.4s;
+    
+    }
+    
+    .joinUs input:hover{
+      color: #c70101;
+      background-color: black;
+      border: solid 2px #c70101;
+    }
+    
+    .button{
+      font-family: 'Jolly Lodger', system-ui;
+      font-size: 2.4rem;
+      width: 10%;
+      padding: 7px;
+      border: black solid 2px;
+      cursor: pointer;
+      background-color: #fff;
+      border-radius: 10px;
+      transition-duration: 0.4s;
+    }
+    .button:hover{ 
+      color: #c70101;
+      background-color: black;
+      border: #c70101 solid 2px ;
+      font-size: 4rem;
+      width: 20%;
+    }
+    
+    .joinUs div{
+    width: 45%;
+    padding: 2rem;
+    margin: 4rem auto;
+    background-color: #d6d4d4;
+    }
+    
+    .joinUs div p{
+      font-family: 'Jolly Lodger', system-ui;
+      font-weight: bold;
+      font-size: 2.6rem;
+    }

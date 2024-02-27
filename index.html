@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/reset.css">
     <title>Accueil</title>
 </head>
 <body>
     <header>
-        <a href="./index.html"><img class="logo" src="" alt="logo"></a>
+        <a href="./index.html"><img class="logo" src="./asset/logo.png" alt="logo"></a>
         <nav>
             <ul class="navigation">
                 <li><a href="./index.html">ACCUEIL</a></li>
@@ -20,32 +21,45 @@
         </nav>
     </header>
     <main>
-        <h1>
-            Retrouvez tout vos films prefere en illimite et gratuitement
-        </h1>
-       <p>
-           Profitez de toutes les nouveautés séries et cinéma. A partir du mois
-           prochain on vous propose tous les classiques du cinéma. Où que vous soyez. Tous
-           les films en VO, VOST, VF et plus d'options.
-       </p>
         <div class="slider">
             <div class="slide">
-                <img src="film-1-url" alt="film 1">
+                <img src="./asset/scream.jpg" alt="film 1">
             </div>
             <div class="slide">
-                <img src="film-2-url" alt="film 2">
+                <img src="./asset/scream.jpg" alt="film 2">
             </div>
             <div class="slide">
-                <img src="film-3-url" alt="film 3">
+                <img src="./asset/scream.jpg" alt="film 3">
             </div>
+            <div class="slide">
+                <img src="./asset/scream.jpg" alt="film 4">
+            </div>
+            <div class="slide">
+                <img src="./asset/scream.jpg" alt="film 5">
+            </div>
+
         </div>
+        <section class="joinUs">
         <h2>Vous souhaitez rejoindre notre plateforme ? Saisissez votre adresse mail pour vous abonner.</h2>
-        <label for="email">Email:</label>
-            <input type="email" id="email" name="email" ><button onclick="location.href='inscription.html';">Commencer</button>
+           
+            <label for="email">Adresse email :</label> <br>
+            <input type="email" id="email" name="email" > <br>
+            <button class="button" onclick="location.href='inscription.html';">Commencer</button>
+    
+            <div>
+            <p>
+                Profitez de toutes les nouveautés séries et cinéma. A partir du mois
+                prochain on vous propose tous les classiques du cinéma. Où que vous soyez. Tous
+                les films en VO, VOST, VF et plus d'options.
+            </p>
+        </div>
+    </section>
     </main>
 
     <footer>
-        
+        <p>
+            Lucas Lopez - 2024
+        </p>
     </footer>
     
 </body>
