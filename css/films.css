@@ -1,0 +1,73 @@
+main{
+
+}
+
+.description{
+padding: 3rem;
+}
+.description h2{
+    font-size: 80px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jolly Lodger', system-ui;   
+
+    }
+    .description h2 img{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        border: solid 2px black;
+        margin: 2rem;
+    }
+
+.description p{
+ font-size: 48px;
+ padding: 2rem;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jolly Lodger', system-ui;   
+
+}
+.description p img{
+    width: 252px;
+    height: 183px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 2rem;
+     
+}
+
+main h3{
+    font-size: 48px;
+    font-family: 'Jolly Lodger', system-ui;   
+text-align: center;
+}
+
+.list-film{
+   max-width: 1300px;
+   width: 80%;
+   height: auto;
+   margin: 30px auto;
+   border: 1px solid black;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 300px);
+   justify-content: center;
+   grid-gap: 10px;
+}
+
+.list-film figure{
+    width: 300px;
+    height: 300px;
+}
+
+.list-film figure img{
+    width: 100px;
+    height: 100px;
+}
+
+.list-film ul{
+
+}

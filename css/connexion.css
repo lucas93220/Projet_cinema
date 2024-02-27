@@ -8,14 +8,14 @@
     text-align: center;
   }
 .connexion{
-    text-align: center;
-    margin: 2rem auto;
-    background-color: #7e7c7c;
-    border: solid 2px black;
-    width: 60%;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50);
+  text-align: center;
+  margin: 2rem auto;
+ /* background-color: #7e7c7c; */
+  border: solid 1px black; 
+  max-width: 45%;
+  padding: 2rem;
+  border-radius: 10px;
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50); */
 
 }
   .connexion label{
@@ -23,13 +23,15 @@
     font-size: 4rem;
   }
   .connexion input{
-    border: black solid 2px;
+    box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.50), -3px 5px 10px 0 rgba(0,0,0,0.50);
+    border: black solid 1px;
+    /* border-radius: 10px; */
     background-color: #fff;
     font-family: 'Jolly Lodger', system-ui;
       font-size: 2rem;
-      padding: 10px;
-      margin: 3rem auto;
-      width: 40%;
+      padding: 7px;
+      margin: 1.5rem auto;
+      width: 60%;
       transition-duration: 0.4s;
   
   }
@@ -46,7 +48,6 @@
   .button{
     font-family: 'Jolly Lodger', system-ui;
     font-size: 2.4rem;
-    width: 10%;
     padding: 7px;
     border: black solid 2px;
     cursor: pointer;

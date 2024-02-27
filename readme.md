@@ -22,4 +22,4 @@ je suis à l'écoute de vos retours et suggestions pour améliorer notre site. N
 Merci d'avoir visité mon site et à très bientôt pour un séjour terrifiant dans le monde de l'horreur!
 
 - Email : lopezlucas52@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/lucas93220/)
+- [LinkedIn](https://www.linkedin.com/in/lucas-lopez-a6607514a/)
