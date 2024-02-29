@@ -42,16 +42,19 @@
 
 
 footer{
-position: absolute;
+padding: 3rem;
 text-align: center;
-bottom: 0;
-left: 0;
-right: 0;
+
 }
 
 footer p{
+  position: absolute;
 font-family: 'Jolly Lodger', system-ui;
 font-size: 2.4rem;
+color: #fff;
+bottom: 0;
+left: 0;
+right: 0;
 }
 
 

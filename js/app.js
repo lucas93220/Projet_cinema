@@ -13,10 +13,7 @@ document.addEventListener("DOMContentLoaded", e => {
             listItem.innerHTML = `<figure>
                                     <figcaption>
                                         <ul>
-                                        <li class="list-primary">Marque : ${film.nom}</li>
-                                        <li class="list-secondary">Année : ${film.annee}</li>
-                                        <li class="list-primary">Type : ${film.realisateur}</li>
-                                        <li class="list-primary">Description : ${film.description}</li>
+                                    
                                         <li class="list-secondary image"><img src="${film.image}" alt="${film.nom}"></li>
                                         </ul>
                                     </figcaption>

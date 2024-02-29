@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
     position: relative;
     min-height: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(35, 34, 34);
 }
 body{
     font: 1.6rem sans-serif; 
