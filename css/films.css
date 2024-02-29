@@ -12,7 +12,7 @@ padding: 3rem;
     align-items: center;
     justify-content: center;
     font-family: 'Jolly Lodger', system-ui;   
-    color: rgb(255, 255, 255);
+    color: #c70101;
 
 
     }
@@ -31,7 +31,7 @@ padding: 3rem;
     align-items: center;
     justify-content: center;
     font-family: 'Jolly Lodger', system-ui;   
-    color: rgb(255, 255, 255);
+    color: #c70101;
 
 }
 .description p img{
@@ -47,18 +47,18 @@ main h3{
     font-size: 48px;
     font-family: 'Jolly Lodger', system-ui;   
 text-align: center;
-color: rgb(255, 255, 255);
+color: #c70101;
 
 }
 
 .list-film{
  
-   width: 75%;
-   height: auto;
+   width: fit-content;
+   height: fit-content;
    margin: 30px auto;
    border: 2px solid black;
    display: grid;
-   grid-template-columns: repeat(5, 200px);
+   grid-template-columns: repeat(5, 25rem);
    justify-content: center;
    grid-gap: 20px;
    padding: 4rem;
@@ -68,17 +68,13 @@ color: rgb(255, 255, 255);
 }
 
 .list-film figure{
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
 }
 
 .list-film figure img{
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
     border: solid 2px black;
     border-radius: 10px;
-}
-
-.list-film ul{
-
 }
