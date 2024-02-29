@@ -16,18 +16,17 @@
     .joinUs h2{
       font-family: 'Jolly Lodger', system-ui;
       width: 60%;
-      padding: 5rem;
+      padding: 12rem;
       font-size: 4.4rem;
       font-weight: bold;
       margin: auto;
-      color: rgb(255, 255, 255);
-
+      color: #c70101;
     }
 
     .joinUs label{
       font-family: 'Jolly Lodger', system-ui;
       font-size: 2.8rem;
-      color: rgb(255, 255, 255);
+      color: #c70101;
 
     }
     .joinUs input{
@@ -81,5 +80,5 @@
       font-family: 'Jolly Lodger', system-ui;
       font-weight: bold;
       font-size: 2.6rem;
-      color:#000000;
+      color: #c70101;
     }
