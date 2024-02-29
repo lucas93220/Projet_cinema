@@ -25,11 +25,10 @@ h2{
 .inscription{
     text-align: center;
     margin: 2rem auto;
-   /* background-color: #7e7c7c; */
-    border: solid 1px #c70101; 
+    border: solid 2px #c70101; 
     max-width: 45%;
     border-radius: 10px;
-    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50); */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50);
 }
   .inscription label{
     

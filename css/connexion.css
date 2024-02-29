@@ -18,7 +18,7 @@
   max-width: 45%;
   padding: 2rem;
   border-radius: 10px;
-  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50); */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50);
 
 }
   .connexion label{
