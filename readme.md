@@ -17,6 +17,10 @@ Le but de ce site est de proposer aux utilisateurs une expérience immersive dan
 
 [Lien site web](https://lucas93220.github.io/Projet_cinema/)
 
+## Palette graphique
+
+![Palette](./asset/palette.svg)
+
 je suis à l'écoute de vos retours et suggestions pour améliorer notre site. N'hésitez pas à me contacter via les liens ci-dessous si vous avez des questions ou des remarques. 
 
 Merci d'avoir visité mon site et à très bientôt pour un séjour terrifiant dans le monde de l'horreur!
