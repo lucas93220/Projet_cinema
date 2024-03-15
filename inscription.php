@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    include_once("./src/connect_bdd.inc.php");
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -48,6 +52,10 @@
 
             <button class="button" type="submit" name="submit">Inscription</button> <br>
         </form>
+        <?php
+            //inclusion
+            include_once "./src/traitement.inc.php";
+            ?>
     </main>
 
     <footer>

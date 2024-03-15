@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    include_once("./src/connect_bdd.inc.php");
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -24,7 +29,7 @@
     </header>
     <main>
             <h2>Connectez-vous</h2>        
-            <form class="connexion" action="/login" method="post">
+            <form class="connexion" action="" method="post">
             <label for="email">Email:</label> <br>
             <input type="email" id="email" name="email" required>
             <br>
@@ -32,9 +37,14 @@
             <input type="password" id="password" name="password" required> <br>
             <p class="pswForget"><a href=".">Mot de passe oublie ?</a></p>
             <br>
-            <button  class="button" href="./films.html" type="submit">Connexion</button>
+            <button  class="button" type="submit">Connexion</button>
         </form>
+        <?php
+            //inclusion
+            include_once "./src/log.inc.php";
+            ?>
         <p>Vous n'avez pas de compte? <a href="./inscription.html">Inscrivez-vous ici</a></p>
+        
     </main>
 
     <footer>

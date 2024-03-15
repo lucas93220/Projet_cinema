@@ -68,4 +68,42 @@ left: 0;
 right: 0;
 }
 
+/* Darkmode */
+.ChangeTheme {
+  --toggle-size: 16px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 5rem;
+  height: 2.5rem;
+  background: linear-gradient(to left, #efefef 50%, #2a2a2a 50% ) no-repeat;
+  background-size: 205%;
+  background-position: 0;
+  transition: 0.7s;
+  border-radius: 99em;
+  position: relative;
+  cursor: pointer;
+  font-size: var(--toggle-size);
+}
 
+.ChangeTheme::before {
+  content: "";
+    width: 2.1rem;
+    height: 2.1rem;
+    position: absolute;
+    top: 0.15em;
+    left: 1.600em;
+    background: linear-gradient(to right, #2a2a2a 50%, #efefef 50% ) no-repeat;
+    background-size: 205%;
+    background-position: 100%;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.ChangeTheme:checked::before {
+  left: calc(100% - 2.25em - 0.438em);
+    background-position: 0;
+}
+
+.ChangeTheme:checked {
+  background-position: 100%;
+}
