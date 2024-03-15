@@ -23,7 +23,7 @@
                 <li><a href="./connexion.html">CONNEXION</a></li>
                 <li><a href="./inscription.html">CRÉER UN COMPTE</a></li>
             </ul>
-            <input type="checkbox" class="ChangeTheme" > 
+            <input type="checkbox" class="ChangeTheme"> 
 
         </nav>
     </header>
