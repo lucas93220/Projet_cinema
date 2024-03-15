@@ -1,3 +1,12 @@
+:root{
+  --backgroundHtml :rgb(35, 34, 34);
+  --ecritureNav : #fff;
+  --background  : #282626;
+  --ecritureRouge : #c70101;
+  --backgroundDiv : #696565;
+  --backgroundBlack : black;
+  }
+
 .banniereForm{
   display: flex;
   padding-top: 5rem;
@@ -19,13 +28,13 @@ h2{
     font-weight: bold;
     margin: auto;
     text-align: center;
-    color: #c70101;
+    color: var(--ecritureRouge);
 
   }
 .inscription{
     text-align: center;
     margin: 2rem auto;
-    border: solid 1px #c70101; 
+    border: solid 1px var(--ecritureRouge); 
     max-width: 45%;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50);
@@ -34,11 +43,11 @@ h2{
     
     font-family: 'Jolly Lodger', system-ui;
     font-size: 2.5rem;
-    color: #c70101;
+    color: var(--ecritureRouge);
   }
   .inscription input{
     box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.50), -3px 5px 10px 0 rgba(0,0,0,0.50);
-    border: black solid 1px;
+    border: var(--backgroundBlack) solid 1px;
     /* border-radius: 10px; */
     background-color: #fff;
     border-radius: 10px;
@@ -53,9 +62,9 @@ h2{
   }
   
   .inscription input:hover{
-    color: #c70101;
-    background-color: black;
-    border: solid 2px #c70101;
+    color: var(--ecritureRouge);
+    background-color: var(--backgroundBlack);
+    border: solid 2px var(--ecritureRouge);
   }
   
   .button{
@@ -64,17 +73,17 @@ h2{
     width: 20%;
     padding: 5px;
     margin: 3rem auto;
-    border: black solid 2px;
+    border: var(--backgroundBlack) solid 2px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: var(--ecritureNav);
     border-radius: 10px;
     transition-duration: 0.4s;
   }
 
   .button:hover{ 
-    color: #c70101;
-    background-color: black;
-    border: #c70101 solid 2px ;
+    color: var(--ecritureRouge);
+    background-color: var(--backgroundBlack);
+    border: var(--ecritureRouge) solid 2px ;
     font-size: 4rem;
     width: 25%;
   }

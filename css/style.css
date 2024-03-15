@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Jolly+Lodger&family=Oswald&display=swap');
 
+:root{
+  --backgroundHtml :rgb(35, 34, 34);
+  --ecritureNav : #fff;
+  --background  : #282626;
+  --ecritureRouge : #c70101;
+  --backgroundDiv : #696565;
+  --backgroundBlack : black;
+  }
+
   header {
     display: flex;
     padding: 10px;
-    background-color: #282626;
-    color: #fff;
+    background-color: var(--background);
+    color: var(--ecritureNav);
     justify-content: space-between;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), -2px 9px 20px 9px rgba(0,0,0,0.50);
   }
@@ -15,12 +24,13 @@
   
   nav {
     display: flex;
+    align-items: center;
   }
   
   nav a {
     font-size: 2.6rem;
     font-family: 'Jolly Lodger', system-ui;   
-    color: #fff;
+    color: var(--ecritureNav);
     text-decoration: none;
     padding: 0 10px;
     transition-duration: 0.4s;
@@ -28,7 +38,7 @@
   }
   
   nav a:hover {
-    color: #c70101;
+    color: var(--ecritureRouge);
   }
 
   .navigation {
@@ -52,7 +62,7 @@ footer p{
   position: absolute;
 font-family: 'Jolly Lodger', system-ui;
 font-size: 2.4rem;
-color: #c70101;
+color: var(--ecritureRouge);
 bottom: 0;
 left: 0;
 right: 0;

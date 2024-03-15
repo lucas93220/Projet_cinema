@@ -1,3 +1,12 @@
+:root{
+    --backgroundHtml :rgb(35, 34, 34);
+    --ecritureNav : #fff;
+    --background  : #282626;
+    --ecritureRouge : #c70101;
+    --backgroundDiv : #696565;
+    --backgroundBlack : black;
+    }
+
 main{
 padding: 5rem;
 }
@@ -12,7 +21,7 @@ padding: 3rem;
     align-items: center;
     justify-content: center;
     font-family: 'Jolly Lodger', system-ui;   
-    color: #c70101;
+    color: var(--ecritureRouge);
 
 
     }
@@ -20,7 +29,7 @@ padding: 3rem;
         width: 28rem;
         height: 25rem;
         border-radius: 10px;
-        border: solid 2px black;
+        border: solid 2px var(--backgroundBlack);
         margin: 2rem;
     }
 
@@ -31,7 +40,7 @@ padding: 3rem;
     align-items: center;
     justify-content: center;
     font-family: 'Jolly Lodger', system-ui;   
-    color: #c70101;
+    color: var(--ecritureRouge);
 
 }
 .description p img{
@@ -47,7 +56,7 @@ main h3{
     font-size: 48px;
     font-family: 'Jolly Lodger', system-ui;   
 text-align: center;
-color: #c70101;
+color: var(--ecritureRouge);
 
 }
 

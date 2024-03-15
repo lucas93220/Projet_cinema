@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Roboto+Condensed:ital,wght@1,300;1,800&display=swap');
+:root{
+    --backgroundHtml :rgb(35, 34, 34);
+    --ecritureNav : #fff;
+    --background  : #282626;
+    --ecritureRouge : #c70101;
+    --backgroundDiv : #696565;
+    --backgroundBlack : black;
+    }
 *{
     box-sizing: border-box;
 }
@@ -8,7 +16,7 @@ html{
     scroll-behavior: smooth;
     position: relative;
     min-height: 100%;
-    background-color: rgb(35, 34, 34);
+    background-color: var(--backgroundHtml);
 }
 body{
     font: 1.6rem sans-serif; 
