@@ -75,7 +75,7 @@ right: 0;
   appearance: none;
   width: 5rem;
   height: 2.5rem;
-  background: linear-gradient(to left, #2a2a2a 50%, #efefef 50% ) no-repeat;
+  background: linear-gradient(to left, #2a2a2a 50%, #c70101 50% ) no-repeat;
   background-size: 205%;
   background-position: 0;
   transition: 0.7s;
@@ -105,5 +105,5 @@ right: 0;
 }
 
 .ChangeTheme:checked {
-  background-position: 100%;
+  /* background-position: 100%; */
 }

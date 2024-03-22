@@ -82,9 +82,8 @@
   width: 45%;
   padding: 2rem;
   margin: 4rem auto;
-  border: 2px solid var(--backgroundBlack);
+  border: 2px solid #c70101;
   border-radius: 10px;
-  background-color: var(--backgroundDiv);
 }
 
 .joinUs div p {

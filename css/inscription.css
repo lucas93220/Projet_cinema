@@ -34,7 +34,7 @@ h2{
 .inscription{
     text-align: center;
     margin: 2rem auto;
-    border: solid 1px var(--ecritureRouge); 
+    border: solid 2px var(--ecritureRouge); 
     max-width: 45%;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50), 0 6px 20px 0 rgba(0,0,0,0.50);
@@ -47,7 +47,7 @@ h2{
   }
   .inscription input{
     box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.50), -3px 5px 10px 0 rgba(0,0,0,0.50);
-    border: var(--backgroundBlack) solid 1px;
+    border: #c70101 solid 2px;
     /* border-radius: 10px; */
     background-color: #fff;
     border-radius: 10px;
